@@ -47,5 +47,6 @@ class Solution {
     Scanner sc = new Scanner(System.in);
     String s = sc.nextLine().toUpperCase();
     System.out.println(romanToInt(s));
+    sc.close();
   }
 }

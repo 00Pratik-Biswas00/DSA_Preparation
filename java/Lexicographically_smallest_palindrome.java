@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class palindrome_lexicographically_smallest {
+public class Lexicographically_smallest_palindrome {
   public static String can_palindromeString(String s) {
     char[] charArray = s.toCharArray();
     int n = charArray.length;

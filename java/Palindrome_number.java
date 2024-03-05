@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class palindrome_check {
+public class Palindrome_number {
   public static boolean isPalindrome(int x) {
     int temp = x;
     int sum = 0;

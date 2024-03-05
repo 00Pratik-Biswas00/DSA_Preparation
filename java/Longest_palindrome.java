@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class palindrome_longest {
+public class Longest_palindrome {
   public static int longestPalindrome(String x) {
     int[] charCount = new int[128];
     for (char c : x.toCharArray()) {

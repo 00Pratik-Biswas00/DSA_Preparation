@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class palindrome_validity {
+public class Valid_palindrome {
   public static boolean isPalindrome(String x) {
     String temp = x.toLowerCase();
     int l = temp.length();
