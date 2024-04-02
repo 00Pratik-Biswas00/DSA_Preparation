@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Valid_palindrom_II {
+class Valid_palindrom_II {
   public static boolean isPalindrome(String x, int s, int e) {
     while (s <= e) {
       if (x.charAt(s) != x.charAt(e))

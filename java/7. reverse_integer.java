@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class reverse_integer {
+class reverse_integer {
 
   public static int reverse(int x) {
     int revNo = 0;
