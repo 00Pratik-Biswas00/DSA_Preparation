@@ -21,7 +21,7 @@ class MaxFrequencyElement {
   public static void main(String[] args) {
     int[] nums1 = { 1, 2, 4 };
     int k1 = 5;
-    System.out.println(maxFrequency(nums1, k1)); // Output: 3
+    System.out.println(maxFrequency(nums1, k1)); // Output - 3
 
     int[] nums2 = { 1, 4, 8, 13 };
     int k2 = 5;
