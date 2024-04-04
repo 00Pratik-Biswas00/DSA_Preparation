@@ -1,5 +1,5 @@
 
-public class checkSorted {
+class checkSorted {
   public static boolean check(int[] nums) {
     int count = 0; // to count if there is a pair where next element is larger than the prev and
                    // the last element is larger than the first element
