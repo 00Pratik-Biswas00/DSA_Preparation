@@ -30,23 +30,7 @@ class Solution {
     int[] nums = { 1, 1, 1, 1, 1 };
     int n = nums.length - 1;
 
-    int sum = (n * (n + 1)) / 2;
-    int s = 0;
-    int ans = 0;
-
-    int firstElement = nums[0];
-    for (int i = 1; i < nums.length; i++) {
-      if (nums[i] == firstElement)
-        ans = nums[i];
-    }
-    for (int i = 0; i < nums.length; i++) {
-      s += nums[i];
-      ans = Math.abs(sum - s);
-    }
-
-    System.out.println(ans);
-
-    // System.out.println(removeDuplicates(nums));
+    System.out.println(removeDuplicates(nums));
     ;
   }
 }
