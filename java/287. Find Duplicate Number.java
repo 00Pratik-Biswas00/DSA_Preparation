@@ -28,8 +28,6 @@ class Solution {
 
   public static void main(String[] args) {
     int[] nums = { 1, 1, 1, 1, 1 };
-    int n = nums.length - 1;
-
     System.out.println(removeDuplicates(nums));
     ;
   }
