@@ -25,7 +25,7 @@ class majorityElement {
   // }
 
   // Moore's voting approach
-  public static int majorityElement(int[] nums) {
+  public static int majority_Element(int[] nums) {
     int count = 0;
     int element = nums[0];
     for (int i = 0; i < nums.length; i++) {
@@ -50,7 +50,7 @@ class majorityElement {
 
   public static void main(String[] args) {
     int[] arr = { 2, 2, 1, 1, 1, 2, 2 };
-    System.out.println(majorityElement(arr));
+    System.out.println(majority_Element(arr));
   }
 
 }
