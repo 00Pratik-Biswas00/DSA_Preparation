@@ -1,20 +1,19 @@
 class LargestAlt {
   public static int largestAltitude(int[] gain) {
-    int num[] = new int[gain.length + 1];
-    num[0] = 0;
-    int max = 0;
-    for (int i = 1; i < gain.length; i++) {
-      num[i] = gain[i - 1] + num[i - 1];
+    int maxAltitude = 0;
+    int currentAltitude = 0;
+
+    for (int g : gain) {
+      currentAltitude += g;
+      maxAltitude = Math.max(maxAltitude, currentAltitude);
     }
-    for (int i = 0; i < num.length; i++) {
-      if (num[i] > max)
-        max = num[i];
-    }
-    return max;
+
+    return maxAltitude;
   }
 
   public static void main(String[] args) {
-    int gain[] = { -4, -3, -2, -1, 4, 3, 2 };
+    int gain[] = { 44, 32, -9, 52, 23, -50, 50, 33, -84, 47, -14, 84, 36, -62, 37, 81, -36, -85, -39, 67, -63, 64, -47,
+        95, 91, -40, 65, 67, 92, -28, 97, 100, 81 };
     System.out.println(largestAltitude(gain));
   }
 }
