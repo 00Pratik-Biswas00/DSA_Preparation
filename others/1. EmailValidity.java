@@ -2,7 +2,7 @@
 
 // "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"
 
-package interview_preparation;
+package others;
 
 import java.util.Scanner;
 

@@ -23,7 +23,7 @@
 // Ticket #2: Use “A” => one A => “1A”
 // Ticket #3: Use “1A” => one 1 + one A => “111A”
 
-package interview_preparation;
+package others;
 
 import java.util.Scanner;
 

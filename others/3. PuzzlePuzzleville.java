@@ -4,7 +4,7 @@
 
 // Let the numbered puzzle pieces be 10, 1, 2, 7, 6, 1, 5 and the puzzle master gives the magic number as 8. So, the unique combinations whose sum is equal to 8 are [[1,1.6]. [1,2,5], [1.7], [2.6]]. So the count of combinations is 4
 
-package interview_preparation;
+package others;
 
 import java.util.ArrayList;
 import java.util.Arrays;
