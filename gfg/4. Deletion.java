@@ -10,7 +10,7 @@ class ListNode {
   }
 }
 
-public class Deletion {
+class Deletion {
   private static ListNode create(int[] arr) {
     ListNode head = new ListNode(arr[0]);
     ListNode mover = head;
