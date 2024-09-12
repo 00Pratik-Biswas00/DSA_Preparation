@@ -2,7 +2,7 @@ package others;
 
 import java.util.Scanner;
 
-public class rev {
+class rev {
 
   public String reve(String st) {
 
