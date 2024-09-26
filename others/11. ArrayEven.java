@@ -3,7 +3,7 @@ package others;
 // Print elements which have appeared even number of times
 import java.util.*;
 
-public class ArrayEven {
+class ArrayEven {
   public void tuki(int n, int arr[]) {
     HashMap<Integer, Integer> mp = new HashMap<>();
     for (int i = 0; i < n; i++) {
