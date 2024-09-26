@@ -5,15 +5,18 @@ import java.util.Scanner;
 class StringVowelsCheck {
   public void tuki(String n) {
     int v = 0, s = 0, c = 0, d = 0;
+    String vowels = "aeiou";
+    String digits = "0123456789";
+    String specials = "@#$%!*&^";
     for (char i : n.toLowerCase().toCharArray()) {
-      d++;
-      if (i == '!' || i == '@' || i == '#' || i == '$' || i == '&')
-        s++;
-      else if (i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u')
+      if (vowels.contains(Character.toString(i)))
         v++;
+      else if (digits.contains(Character.toString(i)))
+        d++;
+      else if (specials.contains(Character.toString(i)))
+        s++;
       else
         c++;
-
     }
     System.out.println(v + " " + c + " " + d + " " + s);
 
