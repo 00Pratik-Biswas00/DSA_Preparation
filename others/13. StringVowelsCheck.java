@@ -2,6 +2,8 @@ package others;
 
 import java.util.Scanner;
 
+// count vowels and all
+
 class StringVowelsCheck {
   public void tuki(String n) {
     int v = 0, s = 0, c = 0, d = 0;
