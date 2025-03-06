@@ -1,5 +1,6 @@
 public class Q1616SplitTwoStringsToMakePalindrome {
     private boolean check(String a, String b) {
+        //
         int l = 0, r = b.length() - 1;
         while (l < r && a.charAt(l) == b.charAt(r)) {
             l++;
