@@ -2,7 +2,7 @@ package others;
 
 import java.util.Stack;
 
-public class task2 {
+public class Q23StringStackOperations {
     public int solution(String S) {
         // Implement your solution here
         Stack<Integer> stack = new Stack<>();
@@ -54,7 +54,7 @@ public class task2 {
     }
 
     public static void main(String[] args) {
-        task2 obj = new task2();
+        Q23StringStackOperations obj = new Q23StringStackOperations();
         System.out.println(obj.solution("1048575 DUP +"));
     }
 
