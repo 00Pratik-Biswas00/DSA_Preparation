@@ -26,12 +26,29 @@ class Examples {
     //////////////////////////////////////////////////////////////////
 
     // insertion sort
+    public int[] insertionSort(int arr[]) {
+        int n = arr.length - 1;
+        for (int i = 0; i <= n - 1; i++) {
+            int j = i;
+            while (j > 0 && arr[j - 1] > arr[j]) {
+                int t = arr[j - 1];
+                arr[j - 1] = arr[j];
+                arr[j] = t;
+                j--;
+            }
+        }
+        return arr;
+    }
 
 }
 
 public class Practice3 {
 
     public static void main(String[] args) {
-
+        Examples e = new Examples();
+        int arr[] = { 5, 6, 2, 3, 1, 9 };
+        int a[] = e.insertionSort(arr);
+        for (int n : a)
+            System.out.print(n + " ");
     }
 }
